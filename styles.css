@@ -1,0 +1,175 @@
+html{
+    height: 100%;
+}
+body{
+    
+    background-color: rgb(202, 70, 70);
+}
+
+
+header{
+    height: 22%;
+    background-color: #303030;
+}
+#header-nav{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    /* default for 1080px */
+    min-height: 30px;;
+    height: 5%;
+    max-height: 3vw;
+    background-color: #303030;
+}
+.header-nav-buttons{
+    height: 100%;
+    width: 70%;
+    background-color: #535353;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-github{
+    height: 100%;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+.header-resume{
+    height: 100%;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.header-likedin{
+    height: 100%;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.fa{
+    font-size:244px;
+    }
+.container-fluid{
+    float: right;
+ 
+    width: 100%;
+    height: 100%;
+}
+.container-image{
+    width: 40%;
+    height: 100%;
+    margin-right: 10%;
+    float: right;
+    
+}
+.container-text{
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+ 
+}
+img{
+    float: right;
+   
+}
+main{
+    height: 56%;
+    
+}
+.main-stack{
+    height: 40%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.title-main-stack{
+    height: 20%;
+    text-align: center;
+    font-size: 32px;
+}
+.title-main-stack h2{
+   
+    padding-top: 40px;
+}
+.top-main-stack{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.top-main-stack > div{
+    
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bottom-main-stack{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bottom-main-stack > div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main-projects{
+    height: 60%;
+    width: 100%;
+    background-color: #ffe6e6;
+  
+}
+.main-projects-content{
+    height: 100%;
+    width: 80%;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-projects-title{
+    
+    padding: 5%;
+    padding-bottom: 7%;
+    height: 10%;
+    
+}
+.main-projects-grid{
+    
+    height: 90%;
+    width: 100%;
+}
+footer{
+    height: 38%;
+    /*22*/
+    background: linear-gradient(180deg, #ffe6e6, #ff1a1a 30%, #303030 80%);
+}
+.i{
+    padding-top: 125px;
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cost{
+    width: 1800px;
+    margin-left: -350px;
+}
+td, th{
+    border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
